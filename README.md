@@ -1,1 +1,12 @@
-# photo-folder-rename-cs
+
+# Usage
+usage: PhotoFolderRename '\<path>' '\<new group name>'
+usage: PhotoFolderRename '\<path>' '\<file name pattern>' '\<new group name>'
+
+## Notes
+
+The Date Taken property from the files is read from this link:
+https://stackoverflow.com/questions/13940436/get-date-taken-for-nef-format-images
+
+It requires the NEF codec from [Nikon](https://downloadcenter.nikonimglib.com/en/products/170/NEF_Codec.html)
+
