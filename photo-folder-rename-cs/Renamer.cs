@@ -6,7 +6,7 @@ namespace photo_folder_rename_cs
 	class Renamer
 	{
 		DirectoryInfo folder = null;
-		string fileNamePattern = "*.*";
+		string fileNamePattern = "*.NEF";
 		string newGroupName = "photo";
 
 		public Renamer(string path, string newGroupName)
